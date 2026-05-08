@@ -6,8 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #ddc7ff;
+  color: #570da0;
   padding: 15px;
   overflow-x: hidden;
 }
@@ -17,7 +17,7 @@ h2,
 h3 {
   text-align: center;
   margin-bottom: 15px;
-  color: #4CAF50;
+  color: #570da0;
 }
 
 /* FORM */
@@ -63,14 +63,14 @@ form select {
 
 form input:focus,
 form select:focus {
-  border-color: #4CAF50;
+  border-color: #570da0;
   outline: none;
-  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+  box-shadow: 0 0 0 3px #570da0;
 }
 
 form button {
   grid-column: span 2;
-  background-color: #4CAF50;
+  background-color: #570da0;
   color: white;
   padding: 12px;
   border: none;
@@ -82,7 +82,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #43a047;
+  background-color: #570da0;
 }
 
 /* TABELA */
@@ -99,7 +99,7 @@ table {
 }
 
 thead {
-  background-color: #4CAF50;
+  background-color: #570da0;
   color: white;
 }
 
@@ -139,7 +139,7 @@ td button {
 }
 
 td button:first-child {
-  background-color: #4CAF50;
+  background-color: #570da0;
   color: white;
 }
 
